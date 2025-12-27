@@ -5,7 +5,7 @@ class App(tk.Tk):
     def __init__(self):
         super().__init__()
         self.title("Tkinter Toggle Button")
-        self.geometry("480x320")  # friendly size for small touch screens
+        self.geometry("800x480")  # friendly size for small touch screens
 
         self.is_green = True
 
